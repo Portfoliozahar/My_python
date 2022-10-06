@@ -10,7 +10,7 @@ def List():
         i += 1
     return list
 
-def getDifference(list):
+def qwe(list):
     newList = []
     for i in range(len(list)):
         if list[i] % 1 != 0:
@@ -19,4 +19,4 @@ def getDifference(list):
 
 list = List()
 print(list)
-print(f'Разница : {getDifference(list):.2f}')
+print(f'Разница : {qwe(list):.2f}')

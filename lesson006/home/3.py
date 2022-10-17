@@ -1,5 +1,5 @@
-a=[1,2,3,4]
-b=[100,200,300,400]
+a = list (input('Введите через пробел: ').split())
+b = list (input('Введите через пробел: ').split())
 
 # for i in range(4):
 #     print(a[i],b[i])

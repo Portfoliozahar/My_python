@@ -27,6 +27,7 @@ x = 3.81
 
 
 def qwe(x):
+    plt.figure(figsize=(8,7))
     x_range_down = np.arange(-100, x1, 0.01)
     x_range_up = np.arange(x2, 100, 0.01)
     plt.title(f'Корни функции: {x1}, {x2}\n'
